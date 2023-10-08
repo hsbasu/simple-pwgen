@@ -5,23 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Repository Info for Simple Password Generator</title>
     
-    <!-- Stylesheets -->
-    <link href="https://hsbasu.github.io/styles/css-styles/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://hsbasu.github.io/styles/css-styles/dark-styles.css" rel="stylesheet" type="text/css">
-    <link href="https://hsbasu.github.io/styles/css-styles/responsive_navbar.css" rel="stylesheet" type="text/css">
-    <link href="https://hsbasu.github.io/styles/css-styles/responsive_sections.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-light.min.css" rel="stylesheet" type="text/css">
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" rel="stylesheet" type="text/css"> -->
-    
     <!-- Scripts -->
 	  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" charset="utf-8"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/javascript.min.js" charset="utf-8"></script> -->
-    <script src="https://hsbasu.github.io/styles/jscripts/header.js"></script>
-    <script src="https://hsbasu.github.io/styles/jscripts/footer.js"></script>
-    <script src="https://hsbasu.github.io/styles/jscripts/navbar.js"></script>
+    <script src="https://hsbasu.github.io/styles/jscripts/head.js"></script>
   </head>
 	
   <body>
@@ -76,11 +62,11 @@
           ## Download Latest Version
           If you want to generate passwords from terminal, download and install the CLI Backend. To use the graphical interface download both the backend and frontend. For installation, check 
           <p class="badges">
-            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen" target="_blank"><i class="fa fa-github"></i> View On GitHub</a>
-            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/zipball/master"><i class="fa fa-file-zip-o"></i> Download Source (.zip)</a>
-            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/tarball/master"><i class="fa fa-file-zip-o"></i> Download Source (.tar.gz)</a>
-            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/releases/download/1.1.1/python3-simple-pwgen_1.1.1_all.deb"><i class="fa fa-file-zip-o"></i> Download Binary [CLI Backend] (.deb)</a>
-            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/releases/download/1.1.1/simple-pwgen_1.1.1_all.deb"><i class="fa fa-file-zip-o"></i> Download Binary [GUI Frontend] (.deb)</a>
+            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen" target="_blank"><i class="fa-brands fa-github"></i> View On GitHub</a>
+            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/zipball/master"><i class="fa-solid fa-file-zipper"></i> Download Source (.zip)</a>
+            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/tarball/master"><i class="fa-solid fa-file-zipper"></i> Download Source (.tar.gz)</a>
+            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/releases/download/1.1.1/python3-simple-pwgen_1.1.1_all.deb"><i class="fa-brands fa-debian"></i> Download Binary [CLI Backend] (.deb)</a>
+            <a class="buttn" href="https://github.com/mamolinux/simple-pwgen/releases/download/1.1.1/simple-pwgen_1.1.1_all.deb"><i class="fa-brands fa-debian"></i> Download Binary [GUI Frontend] (.deb)</a>
           </p>
 
           ## Features and Screenshots
@@ -93,10 +79,10 @@
           5. Show password strength and comments on generated password to help users create strong passwords.
           
           <p  class="badges">
-            <img src="https://github.com/hsbasu/simple-pwgen/raw/gh-pages/screenshots/main-window-light.png" alt="Main window(Light)">
-            <img src="https://github.com/hsbasu/simple-pwgen/raw/gh-pages/screenshots/main-window-dark.png" alt="Main window(Dark)">
-            <img src="https://github.com/hsbasu/simple-pwgen/raw/gh-pages/screenshots/generation-window-light.png" alt="Main window(Light)">
-            <img src="https://github.com/hsbasu/simple-pwgen/raw/gh-pages/screenshots/generation-window-dark.png" alt="Main window(Dark)">
+            <img src="https://hsbasu.github.io/simple-pwgen/screenshots/main-window-light.png" alt="Main window(Light)">
+            <img src="https://hsbasu.github.io/simple-pwgen/screenshots/main-window-dark.png" alt="Main window(Dark)">
+            <img src="https://hsbasu.github.io/simple-pwgen/screenshots/generation-window-light.png" alt="Main window(Light)">
+            <img src="https://hsbasu.github.io/simple-pwgen/screenshots/generation-window-dark.png" alt="Main window(Dark)">
           </p>
           
           ## Contents
@@ -247,7 +233,8 @@
       </div>
     </footer>
     <!-- End Footer -->
-    <script type="text/javascript" src="https://hsbasu.github.io/styles/jscripts/md_html.min.js">"render any markdown before applying themes"</script>
+    
+    <div id="render_md"></div>
     <script type="text/javascript" src="https://hsbasu.github.io/styles/jscripts/main.js"></script>
   </body>
 </html>
